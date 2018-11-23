@@ -1,0 +1,58 @@
+*
+{
+	margin: 15px 70px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: fantasy;
+	font-size: 70px;
+
+} 
+
+.main
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  vertical-align: center;	
+}
+
+#one
+{ 
+
+ background-color: #f44336; 
+ color : #ffcdd2;
+ border-radius: 30px 0px 30px 30px;
+ padding-left: 20px;  
+}
+#two
+{
+ background-color: #AB47BC ;
+ color : #E1BEE7;
+ border-radius: 0px 30px 30px 30px;
+ padding-left: 20px; 
+}
+#three
+{
+	background-color: #42A5F5 ;
+    color : #BBDEFB;
+    padding-left: 20px;
+    border-style: dashed;
+    
+}
+#four
+{
+    background-color: #F0F4C3 ;
+    color : #D4E157;
+    padding-left: 20px;
+    border-style: dotted;
+    border-width: 10px 5px;
+    border-color: #FFFF00;
+}
+#five
+{
+    background-color: #B2DFDB ;	 
+    color : #26A69A;
+    padding: 15px;
+    border: 25px solid transparent;
+    border-image: url(border.png) 20% stretch;
+}
